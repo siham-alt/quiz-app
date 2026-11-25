@@ -1,78 +1,82 @@
-# 🧠 KnowZone — Interactive Quiz Platform
+# 🧠 KnowZone — Plateforme de Quiz Interactive
 
-KnowZone is an interactive quiz platform designed to provide an engaging learning experience through timed quizzes, instant feedback, detailed performance tracking, and competitive leaderboards.
+KnowZone est une plateforme interactive de quiz conçue pour offrir une expérience d’apprentissage ludique et stimulante. Elle propose des quiz chronométrés, des corrections instantanées, un suivi détaillé des performances et des classements permettant aux utilisateurs de comparer leurs résultats.
 
-The platform offers three distinct interfaces for visitors, authenticated users, and administrators, ensuring a complete quiz management and participation experience.
+La plateforme propose trois espaces distincts — visiteurs, utilisateurs authentifiés et administrateurs — afin de gérer les quiz et de participer aux différentes activités.
 
-## ✨ Key Features
+## ✨ Fonctionnalités principales
 
-### 👤 Visitor
+### 👤 Visiteur
 
-Visitors can explore the platform and discover available quizzes without creating an account.
+Les visiteurs peuvent explorer la plateforme et découvrir les quiz disponibles sans avoir besoin de créer un compte.
 
-- Homepage featuring popular quizzes and platform statistics.
-- Browse all available quizzes with filtering options.
-- View quiz details without starting a game.
-- Access the global leaderboard.
-- User registration and login pages.
+- Page d’accueil présentant les quiz populaires et les statistiques de la plateforme.
+- Consultation de tous les quiz disponibles avec des options de filtrage.
+- Affichage des détails d’un quiz sans commencer à y participer.
+- Accès au classement général.
+- Pages d’inscription et de connexion.
 
-### 👥 Authenticated User
+### 👥 Utilisateur authentifié
 
-Registered users can participate in quizzes and track their performance.
+Les utilisateurs inscrits peuvent participer aux quiz et suivre leurs performances.
 
-- Take quizzes with a non-interruptible countdown timer.
-- Receive immediate feedback after each answer.
-- Access explanations for correct answers.
-- Dynamic scoring system combining base points and speed bonuses.
-- Detailed results page after completing a quiz.
-- Automatic score submission to the global leaderboard.
-- Authentication-based access control.
+- Participation à des quiz avec un compte à rebours non interrompable.
+- Réception d'un retour immédiat après chaque réponse.
+- Consultation des explications associées aux bonnes réponses.
+- Système de notation dynamique combinant des points de base et des bonus de rapidité.
+- Affichage d’une page détaillée des résultats à la fin de chaque quiz.
+- Enregistrement automatique des scores dans le classement général.
+- Contrôle d’accès basé sur l’authentification.
 
-### ⚙️ Administrator
+### ⚙️ Administrateur
 
-Administrators have access to a dedicated dashboard for managing the platform.
+Les administrateurs disposent d’un tableau de bord dédié à la gestion de la plateforme.
 
-**Quiz Management**
-- Create quizzes with titles, images, categories, difficulty levels, durations, and questions.
-- Support for multiple question formats:
-  - Single-choice questions (MCQ).
-  - Multiple-choice questions.
-  - True/False questions.
-- Edit and delete existing quizzes.
-- Publish quizzes or save them as drafts.
+**Gestion des quiz**
 
-**Content Validation**
-- Minimum of 5 questions per quiz.
-- Mandatory explanation for each question.
-- At least one correct answer required.
+- Création de quiz avec titre, image, catégorie, niveau de difficulté, durée et questions.
+- Prise en charge de plusieurs formats de questions :
+  - Questions à choix unique (QCM).
+  - Questions à choix multiples.
+  - Questions Vrai/Faux.
+- Modification et suppression des quiz existants.
+- Publication des quiz ou enregistrement en tant que brouillons.
 
-**User Management**
-- View and manage registered users.
-- Block and unblock accounts.
-- Delete user accounts.
+**Validation du contenu**
 
-**Dashboard & Statistics**
-- Overview of registered users.
-- Total number of quizzes.
-- Number of completed games.
-- Score statistics.
+- Minimum de 5 questions par quiz.
+- Explication obligatoire pour chaque question.
+- Au moins une réponse correcte pour chaque question.
 
-## 🛠️ Technologies
+**Gestion des utilisateurs**
 
-- **Frontend:** Angular, TypeScript
+- Consultation et gestion des utilisateurs inscrits.
+- Blocage et déblocage des comptes.
+- Suppression des comptes utilisateurs.
 
-## 🎯 Project Objectives
+**Tableau de bord et statistiques**
 
-- Build an interactive and user-friendly quiz platform.
-- Implement role-based access and authentication.
-- Develop a dynamic scoring system.
-- Provide real-time feedback and performance tracking.
-- Create an administration interface for managing quizzes and users.
+- Vue d’ensemble du nombre d’utilisateurs inscrits.
+- Nombre total de quiz.
+- Nombre de parties terminées.
+- Statistiques des scores.
 
-## 👩‍💻 Developer
+## 🛠️ Technologies utilisées
+
+- **Frontend :** Angular, TypeScript.
+
+## 🎯 Objectifs du projet
+
+- Développer une plateforme de quiz interactive et facile à utiliser.
+- Mettre en place un système d’authentification et de gestion des rôles.
+- Concevoir un système de notation dynamique.
+- Fournir des retours instantanés et un suivi des performances.
+- Créer une interface d’administration pour gérer les quiz et les utilisateurs.
+
+## 👩‍💻 Développeuse
 
 **Siham El Mouden**
 
-Software Engineering Student — FST Mohammedia
+Étudiante en ingénierie logicielle — FST Mohammedia
 
-[GitHub Profile](https://github.com/siham-alt)
+[Mon profil GitHub](https://github.com/siham-alt)
